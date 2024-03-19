@@ -3,7 +3,7 @@ import { InstagramIcon,FacebookIcon,YoutubeIcon,PhoneIcon,MailIcon } from "./Ico
 export default function Footer() {
     const year = new Date().getFullYear();
   return (
-    <footer className="bg-black text-white static bottom-0 w-screen">
+    <footer className="bg-black text-white static -bottom-0 h-1/2 w-screen">
         <div className="w-[70%] mx-auto">
             <div className="flex border-b-2 py-8">
                 <div className="font-bold text-4xl">Doctor+</div>
