@@ -1,9 +1,9 @@
 "use client"
-import {useState} from 'react';
+import React,{useState} from 'react';
 import Image from "next/image"
 import { BackArrow, NextIcon,FirstaidIcon,HistoryIcon,CalendorIcon, DateOfBirth, PersonIcon, MobilePhoneIcon, AddressIcon, DropIcon } from "../UI/Components/Icons"
 
-export default function userProfile() {
+ const userProfile:React.FunctionComponent = ()=> {
     const [openModal, setOpenModal] = useState<Boolean>(false);
 
     function handleOpenModal(){
@@ -108,3 +108,5 @@ export default function userProfile() {
     </section>
   )
 }
+
+export default userProfile;

@@ -7,7 +7,7 @@ export default function HeroSection() {
         <div className="basis-3/5">
             <div className="text-5xl font-bold text-teal-700 tracking-widest">Find your near by doctor & book your appointment & get treatment fast</div>
             <div className="h-96 w-5/6 shadow-black/40 shadow-lg rounded-lg p-10 my-5">
-                <div className="text-teal-600 font-bold text-3xl mx-10">Let's Find Your Perfect Doctor</div>
+                <div className="text-teal-600 font-bold text-3xl mx-10">Let&apos;s Find Your Perfect Doctor</div>
                 <form className="p-10">
                   <label htmlFor="appointment" className="text-xl text-black/60 block my-4">Appointment Type</label>
                   <select name="appointment" id="appointment" className="w-60 bg-white shadow-sm shadow-current p-2 rounded-lg">

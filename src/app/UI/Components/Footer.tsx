@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="w-[70%] mx-auto">
             <div className="flex border-b-2 py-8">
                 <div className="font-bold text-4xl">Doctor+</div>
-                <div className="mx-10 w-80 text-sm text-white/90">Thank you for visiting my website, and I look forward to being a part of your wellness journey. Let's thrive together!</div>
+                <div className="mx-10 w-80 text-sm text-white/90">Thank you for visiting my website, and I look forward to being a part of your wellness journey. Let&apos;s thrive together!</div>
                 <div className="mx-10 ">
                     <div className="flex my-5"><span className="mr-3"><PhoneIcon/></span><span>+91-1234567890</span></div>
                     <div className="flex my-5"><span className="mr-3"><MailIcon/></span><span>contact@gmail.com</span></div>
