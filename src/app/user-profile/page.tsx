@@ -4,7 +4,7 @@ import Image from "next/image"
 import { BackArrow, NextIcon,FirstaidIcon,HistoryIcon,CalendorIcon, DateOfBirth, PersonIcon, MobilePhoneIcon, AddressIcon, DropIcon } from "../UI/Components/Icons"
 
 export default function userProfile() {
-    const [openModal, setOpenModal] = useState(false);
+    const [openModal, setOpenModal] = useState<Boolean>(false);
 
     function handleOpenModal(){
         setOpenModal(true);
