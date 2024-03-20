@@ -109,4 +109,4 @@ import { BackArrow, NextIcon,FirstaidIcon,HistoryIcon,CalendorIcon, DateOfBirth,
   )
 }
 
-export default userProfile;
+export default UserProfile;
